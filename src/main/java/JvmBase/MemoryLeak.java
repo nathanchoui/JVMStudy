@@ -1,6 +1,8 @@
 package JvmBase;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -10,28 +12,20 @@ import java.util.Map;
  */
 public class MemoryLeak {
 
-    public static class Key {
-        private Integer id;
-
-        public Key(Integer id) {
-            this.id = id;
-        }
-
-        @Override
-        public int hashCode() {
-            return id.hashCode();
-        }
-    }
-
     public static void main(String[] args) {
-        Map m = new HashMap();
-        while (true) {
-            for (int i = 0; i < 1000000; i ++) {
-                if (!m.containsKey(new Key(i))) {
-                    m.put(new Key(i), "Number:" + i);
-                }
+        List<byte[]> list = new ArrayList<>();
+        int i = 0 ;
+        boolean flag = true;
+        while(flag){
+            try {
+                i++;
+                list.add(new byte[1024*1024]);//每次增加一个1M大小的数组对象
+            } catch (Throwable e) {
+                // 堆内存溢出
+                e.printStackTrace();// java.lang.OutOfMemoryError: Java heap space
+                flag = false;
+                System.out.println("count="+i);//记录运行的次数
             }
-            System.out.println("m.emory: " + Runtime.getRuntime().freeMemory() / 1024 / 1024 + " / " + Runtime.getRuntime().totalMemory() / 1024 / 1024);
         }
     }
 }
