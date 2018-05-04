@@ -1,0 +1,37 @@
+-XX:+UseParallelGC -XX:+PrintGCDetails
+
+[GC (Allocation Failure) [PSYoungGen: 64640K->9992K(76288K)] 64640K->60176K(251392K), 0.0144559 secs] [Times: user=0.03 sys=0.02, real=0.01 secs]
+[GC (Allocation Failure) [PSYoungGen: 74751K->9976K(141824K)] 124936K->124673K(316928K), 0.0143909 secs] [Times: user=0.02 sys=0.05, real=0.02 secs]
+[Full GC (Ergonomics) [PSYoungGen: 9976K->0K(141824K)] [ParOldGen: 114697K->124561K(273408K)] 124673K->124561K(415232K), [Metaspace: 3471K->3471K(1056768K)], 0.0260289 secs] [Times: user=0.06 sys=0.00, real=0.03 secs]
+[GC (Allocation Failure) [PSYoungGen: 130092K->10272K(141824K)] 254654K->262835K(415232K), 0.0285812 secs] [Times: user=0.05 sys=0.05, real=0.03 secs]
+[Full GC (Ergonomics) [PSYoungGen: 10272K->0K(141824K)] [ParOldGen: 252563K->251540K(494080K)] 262835K->251540K(635904K), [Metaspace: 3471K->3471K(1056768K)], 0.0211627 secs] [Times: user=0.05 sys=0.00, real=0.02 secs]
+[GC (Allocation Failure) [PSYoungGen: 130527K->10272K(232448K)] 382068K->425655K(726528K), 0.0337879 secs] [Times: user=0.05 sys=0.06, real=0.03 secs]
+[Full GC (Ergonomics) [PSYoungGen: 10272K->0K(232448K)] [ParOldGen: 415383K->381590K(705024K)] 425655K->381590K(937472K), [Metaspace: 3471K->3471K(1056768K)], 0.0432221 secs] [Times: user=0.13 sys=0.02, real=0.04 secs]
+[GC (Allocation Failure) [PSYoungGen: 221377K->10272K(243200K)] 602968K->636602K(948224K), 0.0569900 secs] [Times: user=0.09 sys=0.06, real=0.06 secs]
+[Full GC (Ergonomics) [PSYoungGen: 10272K->0K(243200K)] [ParOldGen: 626330K->602781K(1037824K)] 636602K->602781K(1281024K), [Metaspace: 3471K->3471K(1056768K)], 0.0249588 secs] [Times: user=0.06 sys=0.00, real=0.03 secs]
+[GC (Allocation Failure) [PSYoungGen: 231840K->10240K(363008K)] 834622K->834208K(1400832K), 0.0523788 secs] [Times: user=0.02 sys=0.14, real=0.05 secs]
+[Full GC (Ergonomics) [PSYoungGen: 10240K->0K(363008K)] [ParOldGen: 823968K->834206K(1326592K)] 834208K->834206K(1689600K), [Metaspace: 3471K->3471K(1056768K)], 0.0739473 secs] [Times: user=0.14 sys=0.03, real=0.07 secs]
+[GC (Allocation Failure) [PSYoungGen: 351942K->10272K(363008K)] 1186148K->1185476K(1689600K), 0.0671176 secs] [Times: user=0.08 sys=0.17, real=0.07 secs]
+[Full GC (Ergonomics) [PSYoungGen: 10272K->0K(363008K)] [ParOldGen: 1175203K->1185445K(1790464K)] 1185476K->1185445K(2153472K), [Metaspace: 3471K->3471K(1056768K)], 0.0948799 secs] [Times: user=0.19 sys=0.00, real=0.10 secs]
+[GC (Allocation Failure) [PSYoungGen: 351955K->10272K(555008K)] 1537401K->1536714K(2345472K), 0.0860717 secs] [Times: user=0.06 sys=0.17, real=0.09 secs]
+[Full GC (Ergonomics) [PSYoungGen: 10272K->0K(555008K)] [ParOldGen: 1526442K->1536685K(2223104K)] 1536714K->1536685K(2778112K), [Metaspace: 3471K->3471K(1056768K)], 0.0726958 secs] [Times: user=0.16 sys=0.00, real=0.07 secs]
+[GC (Allocation Failure) [PSYoungGen: 544128K->10272K(561664K)] 2080813K->2187991K(2784768K), 0.1367116 secs] [Times: user=0.13 sys=0.33, real=0.14 secs]
+[Full GC (Ergonomics) [PSYoungGen: 10272K->0K(561664K)] [ParOldGen: 2177719K->2080448K(2788352K)] 2187991K->2080448K(3350016K), [Metaspace: 3471K->3471K(1056768K)], 0.0621026 secs] [Times: user=0.16 sys=0.02, real=0.06 secs]
+[GC (Allocation Failure) [PSYoungGen: 550415K->10240K(732160K)] 2630863K->2630344K(3520512K), 0.1537207 secs] [Times: user=0.17 sys=0.16, real=0.15 secs]
+[Full GC (Ergonomics) [PSYoungGen: 10240K->0K(732160K)] [ParOldGen: 2620104K->2630337K(2788352K)] 2630344K->2630337K(3520512K), [Metaspace: 3471K->3471K(1056768K)], 0.2062147 secs] [Times: user=0.30 sys=0.05, real=0.21 secs]
+[Full GC (Ergonomics) [PSYoungGen: 720670K->562184K(732160K)] [ParOldGen: 2630337K->2788041K(2788352K)] 3351007K->3350226K(3520512K), [Metaspace: 3471K->3471K(1056768K)], 0.1923716 secs] [Times: user=0.45 sys=0.03, real=0.19 secs]
+[Full GC (Ergonomics) [PSYoungGen: 720679K->719882K(732160K)] [ParOldGen: 2788041K->2788041K(2788352K)] 3508720K->3507924K(3520512K), [Metaspace: 3471K->3471K(1056768K)], 0.0373530 secs] [Times: user=0.13 sys=0.00, real=0.04 secs]
+[Full GC (Ergonomics) [PSYoungGen: 720907K->720907K(732160K)] [ParOldGen: 2788041K->2788041K(2788352K)] 3508948K->3508948K(3520512K), [Metaspace: 3471K->3471K(1056768K)], 0.0147077 secs] [Times: user=0.06 sys=0.00, real=0.02 secs]
+[Full GC (Allocation Failure) java.lang.OutOfMemoryError: Java heap space
+[PSYoungGen: 720907K->720907K(732160K)] [ParOldGen: 2788041K->2788023K(2788352K)] 3508948K->3508930K(3520512K), [Metaspace: 3471K->3471K(1056768K)], 0.4589962 secs] [Times: user=1.45 sys=0.06, real=0.46 secs]
+	at JvmBase.MemoryLeak.main(MemoryLeak.java:20)
+count=3427
+Heap
+ PSYoungGen      total 732160K, used 721408K [0x000000076af00000, 0x0000000799c80000, 0x00000007c0000000)
+  eden space 721408K, 100% used [0x000000076af00000,0x0000000796f80000,0x0000000796f80000)
+  from space 10752K, 0% used [0x0000000797a00000,0x0000000797a00000,0x0000000798480000)
+  to   space 10752K, 0% used [0x0000000796f80000,0x0000000796f80000,0x0000000797a00000)
+ ParOldGen       total 2788352K, used 2788027K [0x00000006c0c00000, 0x000000076af00000, 0x000000076af00000)
+  object space 2788352K, 99% used [0x00000006c0c00000,0x000000076aeaef20,0x000000076af00000)
+ Metaspace       used 3503K, capacity 4496K, committed 4864K, reserved 1056768K
+  class space    used 384K, capacity 388K, committed 512K, reserved 1048576K

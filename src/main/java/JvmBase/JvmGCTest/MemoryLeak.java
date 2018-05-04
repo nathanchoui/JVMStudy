@@ -1,12 +1,10 @@
-package JvmBase;
+package JvmBase.JvmGCTest;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 /**
- * Description:
+ * -XX:+UseParNewGC -XX:+PrintGCDetails
  * <p>
  * Created by nathan.z on 2018/3/14.
  */
