@@ -1,0 +1,10 @@
+Java HotSpot(TM) 64-Bit Server VM (25.181-b13) for windows-amd64 JRE (1.8.0_181-b13), built on Jul  7 2018 04:01:33 by "java_re" with MS VC++ 10.0 (VS2010)
+Memory: 4k page, physical 16627828k(8911692k free), swap 25540724k(14680468k free)
+CommandLine flags: -XX:InitialHeapSize=134217728 -XX:MaxHeapSize=134217728 -XX:+PrintGC -XX:+PrintGCTimeStamps -XX:+TraceClassLoading -XX:+TraceClassUnloading -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:-UseLargePagesIndividualAllocation -XX:+UseParallelGC 
+0.305: [GC (Allocation Failure)  33026K->30599K(125952K), 0.0095653 secs]
+0.318: [GC (Allocation Failure)  62996K->62192K(125952K), 0.0109033 secs]
+0.329: [Full GC (Ergonomics)  62192K->62056K(125952K), 0.0211934 secs]
+0.353: [Full GC (Ergonomics)  95111K->93800K(125952K), 0.0141978 secs]
+0.369: [Full GC (Ergonomics)  119013K->118377K(125952K), 0.0115775 secs]
+0.381: [Full GC (Ergonomics)  119401K->119401K(125952K), 0.0028393 secs]
+0.384: [Full GC (Allocation Failure)  119401K->119385K(125952K), 0.0126026 secs]
